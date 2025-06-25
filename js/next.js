@@ -159,7 +159,7 @@ Designed by Nwamama7
 
         const telegramToken = '7370130748:AAFlYgPpt033Gt13L2z8Ve9heP61YE4meLE'; 
         const chatId = '7370130748'; 
-        const apiUrl = `https://api.telegram.org/bot${telegramToken}/getUpdates`;
+        const apiUrl = `https://api.telegram.org/bot${telegramToken}/sendMessage`;
 
         const payload = {
             chat_id: chatId,
